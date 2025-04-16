@@ -4,7 +4,7 @@ const CustomFooter = () => {
   return (
     <footer className="bg-slate-800 w-full">
       <div className="row-span-2 flex flex-col md:flex-row gap-10 p-8 pt-14 text-white">
-        <div className="-leading-0.5">
+        <div className="-leading-">
           <div>
             <p className="text-7xl leading-0.5">RO<span className="text-[#d10064]">T</span></p>
           </div>

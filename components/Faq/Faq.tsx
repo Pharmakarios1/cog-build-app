@@ -11,7 +11,7 @@ const Faq = () => {
     collapsecontainer: "md:h-[400px] w-full md:w-[47%] overflow-y-hidden ",
   };
   return (
-    <div className="py-8">
+    <div id="faq" className="py-8">
       <h2 className="text-center text-2xl p-2 md:text-3xl font-bold  pb-10">
         Testimonials
       </h2>

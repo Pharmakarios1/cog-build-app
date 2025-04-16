@@ -1,5 +1,5 @@
 //third parties Imports
-import { RightOutlined } from "@ant-design/icons";
+import { ArrowRightOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 
 const GetStarted = () => {
@@ -18,11 +18,11 @@ const GetStarted = () => {
           type="primary"
           style={{ background: "#d10064", color: "white", padding: "20px", marginTop:'20px' }}
         >
-          Get Started for free <RightOutlined />
+          Get Started for free <ArrowRightOutlined/>
         </Button>
       </div>
     </div>
   );
-};
+}
 
 export default GetStarted;

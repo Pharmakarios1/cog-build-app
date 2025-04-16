@@ -21,10 +21,10 @@ const theme ={
   colorBgBase: 'rgb(255,255,255, 0.6)'
 } as ConfigProviderProps['theme']
 
-const fontInter = Inter({
-  subsets: ["latin"],
-  display:'swap'
-});
+// const fontInter = Inter({
+//   subsets: ["latin"],
+//   display:'optional',
+// });
 
 export const metadata: Metadata = {
   title: "Create Next App",

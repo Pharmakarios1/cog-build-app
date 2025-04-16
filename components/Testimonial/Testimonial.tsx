@@ -9,7 +9,7 @@ const Testimonial = () => {
     caroselcontainer: 'md:h-[400px] w-full md:w-[55%]'
   }
   return (
-   <div className='py-8'>
+   <div id="testimonial" className='py-8'>
     <h2 className='text-center text-2xl p-2 md:text-3xl font-bold pb-10'>Testimonials</h2>
      <div className={`${CarouselImage.container}`}>
         <Image src={`/jpg/userSay.jpg`} height={500} width={600} alt='img_testimonial' className={` ${CarouselImage.image}`}/>
