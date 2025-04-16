@@ -13,7 +13,7 @@ const Faq = () => {
   return (
     <div id="faq" className="py-8">
       <h2 className="text-center text-2xl p-2 md:text-3xl font-bold  pb-10">
-        Testimonials
+        FAQs
       </h2>
       <div className={`${FaqImage.container}`}>
         <Image
