@@ -1,6 +1,6 @@
 // next imports
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 import "./globals.css";
 
 // third parties imports
@@ -47,7 +47,7 @@ export default function RootLayout({
     <html lang="en">
 
       <body
-        className={"w-full max-w-[1400px] mx-auto h-screen flex flex-col " + fontInter.className}
+        className={"w-full max-w-[1400px] mx-auto h-screen flex flex-col "  }
       >
         {<CustomHeader />}
         {children}

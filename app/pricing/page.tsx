@@ -38,14 +38,10 @@ const paymentMethod = [
    path: `${basePath}/card-payment `
   },
 ]
-// const page = () => {
-//   return (
-//    <CustomMain>
-//    <Router>
-//     <Route
-//    </Router>
-//    </CustomMain>
-//   )
-// }
+const page = () => {
+  return (
+   <div>hello</div>
+  )
+}
 
 export default page
